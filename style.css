@@ -1,0 +1,53 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+body {
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    background-color: lightgoldenrodyellow;
+}
+
+figure {
+    margin-bottom 0;
+    border: 5px dashed yellow;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+button {
+    height: 50 px;
+    width: 100px;
+    background-color: black;
+    color: yellow;
+
+}
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+form {
+    text-align: center;
+}
+
+header,
+footer{
+    height: 80px;
+    width: 100%;
+    border: 5px solid yellow;
+    background-color: green;
+    position:absolute;
+    font-size: 15px;
+}

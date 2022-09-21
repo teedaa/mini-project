@@ -5,25 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact form</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
     <header>
-        <h1>Contact Me</h1>
-        <div class="topnav">
-            <a href="#home">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="#footer">Footer</a>
-        </div>
+        <nav class="text-right">
+            <ul>
+                <li><a href="github.com/teedaa">Github</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
     </header>
 
-   <img src="contact-me.jpeg" alt="Chalkboard with Contact me written in a box">
-        <p>Don't be afraid to reach out!</p>
+<main>
+    <h1 class="text-center">Contact Me</h1>
+    <figure>
+      <img src="contact-me.jpeg" alt="Chalkboard with Contact me written in a box">
+        <figcaption class="text-center">Reach out! </figcaption>
+    </figure>   
 
-    <label for="#contact">Name</label> 
-        <input type="text" id="name" minlength="0" maxlength="20">
-    <label for="#contact">Email</label>
-        <input type="text" id="email" minlength="0" maxlength="40"
-    <footer><h6>UCB Bootcamp 2022</h6></footer>
+    <section>
+    <form id="contact-form">
+     <label for="#contact">Name</label> 
+        <input type="text" id="name">
+     <label for="#contact">Email</label>
+        <input type="text" id="email">
+
+        <button type="Submit">Send!</button>
+    </form>
+</section>
+</main>
+    <footer class="text-center"><h6>UCB Bootcamp 2022</h6></footer>
 </body>
 </html>
